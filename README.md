@@ -17,10 +17,10 @@
 
 ### Ссылка на репозиторий
 
-https://github.com/thaerealme/movies-explorer-api
+https://github.com/thaerealme/movies-explorer-api/
 
 #### Ссылки на проект:
 
 IP 51.250.110.113
 
-Backend: https://api.twentyfortythree.nomoreparties.co
+Backend: https://api.twentyfortythree.nomoreparties.co/
