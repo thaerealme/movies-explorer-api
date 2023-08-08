@@ -12,6 +12,10 @@ const {
   validateLogin, validateRegister,
 } = require('../middlewares/validations');
 
+router.get('/', (req, res) => {
+  res.send({ message: 'Здесь будет главная страница' });
+});
+
 router.use('/signin', validateLogin, login);
 router.use('/signup', validateRegister, createUser);
 router.use(auth);
