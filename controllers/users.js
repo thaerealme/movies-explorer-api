@@ -26,7 +26,7 @@ module.exports.updateUser = (req, res, next) => {
       if (!user) {
         next(new NotFoundError('Пользователь по указанному ID не найден'));
       } else {
-        res.send({ name, email });
+        res.send(user);
       }
     })
     .catch((err) => {

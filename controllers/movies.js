@@ -57,7 +57,8 @@ module.exports.deleteMovie = (req, res, next) => {
             res.send(deletedMovie);
           });
       }
-    });
+    })
+    .catch(next);
 };
 
 
