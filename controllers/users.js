@@ -12,8 +12,7 @@ module.exports.getUserInfo = (req, res, next) => {
       if (!user) {
         next(new NotFoundError('Ошибка при получении информации о пользователе'));
       } else {
-        const { name, email } = user;
-        res.send({ name, email });
+        res.send(user);
       }
     })
     .catch(next);
