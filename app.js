@@ -10,10 +10,7 @@ const { requestLogger, errorLogger } = require('./middlewares/logger');
 const allowedCors = [
   'https://twentyfortythree.nomoreparties.co',
   'http://twentyfortythree.nomoreparties.co',
-  'http://localhost',
-  'https://localhost',
-  'http://127.0.0.1',
-  'https://127.0.0.1',
+  '127.0.0.1',
 ];
 
 const { PORT = 3000, DB_ADDRESS } = process.env;
